@@ -12,6 +12,9 @@
     "e2e": "ng e2e",
     "prettier": "prettier --parser typescript --single-quote --trailing-comma es5 --write \"**/*.ts\""
   },
+  "repository": {
+    "url": "https://github.com/ekoeryanto/xo-angular-starter.git"
+  },
   "engines": {
     "node": ">=8.6.0",
     "npm": ">=5.3.0",
