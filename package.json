@@ -8,7 +8,7 @@
     "start": "ng serve",
     "hmr": "ng serve --hmr -e=hmr",
     "build": "ng build --prod",
-    "test": "ng test --single-run",
+    "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
     "prettier": "prettier --parser typescript --single-quote --trailing-comma es5 --write \"**/*.ts\""
@@ -25,7 +25,7 @@
     "*.ts": [
       "npm run prettier",
       "npm run lint",
-      "npm run test",
+      "npm run test -- -sr",
       "git add"
     ]
   },
